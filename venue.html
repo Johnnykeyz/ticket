@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIBN Generation Next Forum 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">   
+    <style>
+        /* Responsive iframe container */
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Header above iframe */
+        .iframe-header {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        /* Get Directions Section */
+        .get-directions {
+            margin-top: 3rem;
+            text-align: center;
+            background-image: url('annual_dinner.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 50px 20px;
+            color: white;
+        }
+
+        .get-directions-content {
+            background: rgba(0, 0, 0, 0.6);
+            display: inline-block;
+            padding: 20px 40px;
+            border-radius: 10px;
+        }
+        .get-directions h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .get-directions button {
+            background-color: #086820;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .get-directions button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><img style="height: 70px; width: 120px;" src="cibn.png" alt="cibn_logo"></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html#home">HOME</a></li>
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li><a href="venue.html">VENUE</a></li>
+                <li><a href="index.html#gallery">GALLERY</a></li>
+                <li><a href="./cibn-ticketing/">TICKETS</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Get Directions Section -->
+    <section class="get-directions">
+        <div class="get-directions-content">
+        <h2>Get Directions</h2>
+        <p>Find your way to the event venue with ease.</p>
+        <p>EKO Hotels & Suites, Plot 1415 Adetokunbo Ademola Street, Victoria Island, Lagos</p>
+        <br>
+        <button onclick="window.open('https://www.google.com/maps/dir//Eko+Hotel+And+Suites', '_blank')">Get Directions</button>
+        </div>
+    </section>
+<br>
+    <!-- Responsive Iframe Section -->
+    <div class="iframe-header">Directions to the Event Venue</div>
+    <div class="iframe-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7465022922033!2d3.4275443736491202!3d6.426605924284526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5402368b913%3A0xca22600eeec46d00!2sEko%20Hotel%20And%20Suites!5e0!3m2!1sen!2sng!4v1759407361423!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>CIBN ANNUAL BANKERS DINNER</h3>
+                <p>Join us for an evening of celebration and networking. It promises to be a night to remember!</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#gallery">Gallery</a>
+                <a href="./cibn-ticketing/">Tickets</a>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Event Details</h3>
+                <p>November 28, 2025</p>
+                <p>EKO Hotels & Suites, Plot 1415 Adetokunbo Ademola Street</p>
+                <p>Victoria Island, Lagos, Nigeria</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <a href="mailto:info@cibng.org">info@cibng.org</a>
+                <p>www.cibng.org</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Chartered Institute of Bankers of Nigeria (CIBN). All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -979,12 +979,10 @@ body {
     }
 
     .hero h2 {
-    font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: 700;
     }
     .hero h3 {
-    font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     font-weight: 700;
     }
@@ -1012,17 +1010,8 @@ body {
         display: flex;
     }
 
-    .hero-container {
-        grid-template-columns: 1fr;
-    }
-
     .hero-badge{
         margin-top: 1rem;
-    }
-
-    .hero-content {
-        order: 2;
-        text-align: center;
     }
 
     .hero-visual {
@@ -1059,12 +1048,10 @@ body {
         grid-template-columns: 1fr;
         text-align: center;
     }
-}
 
-@media (max-width: 768px) {
     .hero{
         margin-top: 0rem;
-        padding: 1rem 1rem;
+        padding: 0.3rem 0.3rem;
     }
     .hero-graphic {
         width: 100%;
@@ -1077,15 +1064,39 @@ body {
         font-size: 4rem; /* smaller icon */
     }
 
-    .hero-content {
-        padding: 1rem;
-    }
-
     .cta-buttons {
         flex-direction: column;
         align-items: center;
     }
+
+    .hero-container {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+}
+
+   .hero-content {
+    order: 2;
+    text-align: center;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+    .hero-visual {
+        order: 2;
+        display: flex;
+        justify-content: flex-end;
     }
+
+    .hero-visual img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+}
+
 
 @media (max-width: 480px) {
     .countdown {
@@ -1111,38 +1122,6 @@ body {
         font-size: 0.9rem;
     }
 }
-
-@media (min-width: 768px) {
-
-
-    .hero-container {
-    grid-template-columns: 1fr;
-    max-width: 100%;
-}
-
-   .hero-content {
-    order: 2;
-    text-align: center;
-    padding: 1rem;
-    width: 100%;
-    max-width: 600px;
-}
-
-    .hero-visual {
-        order: 2;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .hero-visual img {
-        width: auto;
-        max-width: 100%;
-        height: auto;
-        border-radius: 15px;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    }
-}
-
 /* Animations */
 .fade-in {
     opacity: 0;
@@ -1154,6 +1133,7 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 

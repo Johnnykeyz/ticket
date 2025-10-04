@@ -211,9 +211,9 @@ body {
 } 
 
     .hero-container {
-    /* max-width: 1400px; */
+    max-width: 100%;
     margin: 4rem auto;
-    padding: 1.1rem 1.8rem;
+    padding: 1.1rem 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -1153,4 +1153,5 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 

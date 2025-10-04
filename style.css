@@ -1066,7 +1066,7 @@ body {
         padding: 1rem 1rem;
     }
     .hero-graphic {
-        width: 50%;
+        width: 100%;
         height: auto; /* let it scale naturally optional */
         margin: 2rem auto 0; /* center on mobile */
         padding-top: 2rem;
@@ -1153,5 +1153,6 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 

@@ -1061,7 +1061,8 @@ body {
 
     .hero{
         margin-top: 0rem;
-        padding: 0.5rem 0.5rem;
+        /*padding: 0.5rem 0.5rem;*/
+        margin-right: 1rem;
     }
     .hero-graphic {
         width: 100%;
@@ -1142,6 +1143,7 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 

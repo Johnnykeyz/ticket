@@ -1081,15 +1081,14 @@ body {
 
     .hero-container {
     grid-template-columns: 1fr;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
    .hero-content {
     order: 2;
     text-align: center;
-    padding: 0.5rem;
-    width: 100%;
-    max-width: 600px;
+    padding: 0rem;
+   /* max-width: 600px;*/
 }
 
     .hero-visual {
@@ -1143,6 +1142,7 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 

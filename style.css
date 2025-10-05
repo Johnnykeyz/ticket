@@ -983,6 +983,7 @@ body {
     }
 
     .hero h2 {
+    font-family: Papyrus, fantasy;
     font-size: 2rem;
     font-weight: 700;
     }
@@ -1065,8 +1066,8 @@ body {
         
     }
     #home{
-        padding-left: 6px;
-        padding-right: 6px;
+        padding-left: 5px;
+        padding-right: 8px;
     }
     .hero-graphic {
         width: 100%;
@@ -1147,6 +1148,7 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 

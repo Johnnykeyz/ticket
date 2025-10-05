@@ -1087,7 +1087,7 @@ body {
    .hero-content {
     order: 2;
     text-align: center;
-    padding: 0.4rem;
+    padding: -0.4rem;
    /* max-width: 600px;*/
 }
 
@@ -1142,6 +1142,7 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 

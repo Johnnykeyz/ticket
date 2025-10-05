@@ -1062,12 +1062,12 @@ body {
     .hero{
         margin-top: 0rem;
         /*padding: 0.5rem 0.5rem;*/
-        margin-right: 1rem;
+        
     }
     .hero-graphic {
         width: 100%;
         height: auto; /* let it scale naturally optional */
-        margin: 2rem auto 0; /* center on mobile */
+        margin: 2rem 0 0; /* center on mobile */
         padding-top: 2rem;
     }
 
@@ -1088,7 +1088,6 @@ body {
    .hero-content {
     order: 2;
     text-align: center;
-    padding: -0.4rem;
    /* max-width: 600px;*/
 }
 
@@ -1143,6 +1142,7 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 

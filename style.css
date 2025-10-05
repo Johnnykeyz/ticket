@@ -1064,6 +1064,10 @@ body {
         /*padding: 0.5rem 0.5rem;*/
         
     }
+    #home{
+        padding-left: 6px;
+        padding-right: 6px;
+    }
     .hero-graphic {
         width: 100%;
         height: auto; /* let it scale naturally optional */
@@ -1084,6 +1088,7 @@ body {
     grid-template-columns: 1fr;
     /* max-width: 100%; */
 }
+    
 
    .hero-content {
     order: 2;
@@ -1142,6 +1147,7 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 

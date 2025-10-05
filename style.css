@@ -973,6 +973,10 @@ body {
 }
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+    #hecon{
+        padding-left: 2rem;
+        padding-right: 2.5rem;
+    }
     .social-toggle {
         display: none;
         right: 15px;
@@ -1148,6 +1152,7 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 
